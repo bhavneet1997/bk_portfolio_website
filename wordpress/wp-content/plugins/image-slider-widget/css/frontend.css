@@ -93,7 +93,7 @@
 	z-index:9995;
 	}
 	
-.sliderpreloader {width:100% !important; height:32px !important; background:url(../images/ajax-loader.gif) center center no-repeat !important; text-align:center;}
+.sliderpreloader {width:100% !important; height:32px !important; background:url(/wp-content/plugins/image-slider-widget/images/ajax-loader.gif) center center no-repeat !important; text-align:center;}
 
 .ewc-aff-link {
 	display:none;
