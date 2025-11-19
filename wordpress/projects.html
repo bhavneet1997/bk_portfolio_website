@@ -506,24 +506,25 @@ label {
    
 }
 		/* project section */
-				.project-section {
+				/* Project Section */
+.custom-projects.project-section {
     padding: 60px 20px;
     text-align: center;
 }
 
-.projects-title {
+.custom-projects .projects-title {
     font-size: 42px;
     margin-bottom: 40px;
     font-weight: 700;
 }
 
-.projects-grid {
+.custom-projects .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 30px;
 }
 
-.project-box {
+.custom-projects .project-box {
     background: #ffffff;
     padding: 25px;
     border-radius: 10px;
@@ -531,29 +532,29 @@ label {
     transition: 0.3s;
 }
 
-.project-box:hover {
+.custom-projects .project-box:hover {
     transform: translateY(-8px);
     box-shadow: 0 8px 25px rgba(0,0,0,0.12);
 }
 
-.project-img {
+.custom-projects .project-img {
     width: 100%;
     border-radius: 8px;
     margin-bottom: 15px;
 }
 
-.project-name {
+.custom-projects .project-name {
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 10px;
 }
 
-.project-desc {
+.custom-projects .project-desc {
     color: #555;
     margin-bottom: 20px;
 }
 
-.project-btn {
+.custom-projects .project-btn {
     display: inline-block;
     padding: 10px 20px;
     background: #333;
@@ -563,11 +564,9 @@ label {
     transition: 0.3s;
 }
 
-.project-btn:hover {
+.custom-projects .project-btn:hover {
     background: #000;
 }
-
-
 
 
 		</style>
@@ -767,7 +766,7 @@ label {
 </div>
 		
 </main><!--/.neve-main-->
-	<div class="project-section">
+<div class="project-section custom-projects">
 
     <h2 class="projects-title">Projects</h2>
 
@@ -800,6 +799,7 @@ label {
     </div>
 
 </div>
+
 
 
 		<footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
